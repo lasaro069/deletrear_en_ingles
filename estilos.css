@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url("fondo.png");
+    background-size: cover;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+ }
+
+h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.contenedor {
+    background-color:rgb(201, 207, 207);    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 60vh;
+    width: 60%;
+
+    margin: 20px 0px;
+}
+
+.palabra {
+    width: 60%;
+    font-size: 1.5em;
+}
+
+.input {
+    width: 60%;
+    height: 30px;
+    margin-top: 5px;
+    font-size: 1.5em;
+    border: none;
+    box-shadow: 3px 3px 5px;
+
+}
+
+.boton {
+    background-color: cadetblue;
+    margin-top: 15px;
+    border: none;
+    width: 90px;
+    height: 30px;
+    font-weight: bold;
+    font-size: 1em;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px;
+}
+
+.resultado {
+    border: 2ps solid violet;
+    height: 20px;
+    width: 60%;
+}
