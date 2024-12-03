@@ -20,13 +20,14 @@ h1 {
 }
 
 .contenedor {
-    background-color:rgb(201, 207, 207);    
+    background-color:rgb(168, 192, 192);    
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     height: 60vh;
     width: 60%;
+    box-shadow: 5px 5px 15px;
 
     margin: 20px 0px;
 }
@@ -37,29 +38,43 @@ h1 {
 }
 
 .input {
-    width: 60%;
-    height: 30px;
+    width: 90%;
+    height: 40px;
     margin-top: 5px;
     font-size: 1.5em;
     border: none;
     box-shadow: 3px 3px 5px;
+    padding-left: 5px;
 
+}
+.resultado {
+    height: 60px;
+    width: 90%;
+    margin-top: 10px;
+    font-size: 1.5em;
+    padding: 3px 0px 0px 4px;
+    box-shadow: 2px 2px 20px;
 }
 
 .boton {
-    background-color: cadetblue;
+    background-color: rgb(153, 162, 167);
     margin-top: 15px;
     border: none;
-    width: 90px;
-    height: 30px;
+    width: 120px;
+    height: 40px;
     font-weight: bold;
-    font-size: 1em;
+    font-size: 1.3em;
     border-radius: 5px;
     box-shadow: 5px 5px 10px;
+    cursor: pointer;
+    transform: transition;
+    transition: 0.3s;
+        
 }
 
-.resultado {
-    border: 2ps solid violet;
-    height: 20px;
-    width: 60%;
+.boton:hover {
+    transform: scale(1.1);
+    background-color: rgb(202, 208, 211);
+    color: grey;
+    
 }
